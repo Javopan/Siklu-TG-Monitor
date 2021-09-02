@@ -48,10 +48,10 @@ class SikluNetconf:
 
 
 if __name__ == '__main__':
-    ip = '31.168.34.110'
+    ip = '192.168.0.1'
     command = ''
 
-    n366 = SikluNetconf(ip, 'admin', 'TGadmin1')
+    n366 = SikluNetconf(ip, 'admin', 'admin')
     n366.connect()
     n366_active = n366.get_command('<filter xmlns:n366="http://siklu.com/yang/tg/radio" select="/n366:radio-common/n366:links/n366:active/n366:remote-assigned-name" type="xpath"/>')
     print(n366_active)
