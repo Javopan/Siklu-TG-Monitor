@@ -387,11 +387,11 @@ if __name__ == '__main__':
     # print(n366.get_registered_links())
     # print(n366.get_active_links())
     # Test 2 automated
-    name = 'Prueba'
-    ip = '31.168.34.110'
+    name = 'Test'
+    ip = '192.168.0.1'
     n366 = BU366(name, ip)
     user_n = 'admin'
-    pass_w = 'TGadmin1'
+    pass_w = 'admin'
     n366.first_contact(user_n, pass_w, 22, 5)
     # prints the tus
     print(n366.tus)
