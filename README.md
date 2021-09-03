@@ -12,7 +12,7 @@ required packages to be able to run the script:
 * pandas - dataframe framework to manage the information retrived and to write it to excel  
 * openpyxl - excel writter  
 
-Many thanks and credit to the teams behind this python modules (Women and Men)
+Many thanks and credit to the teams behind these python modules (Women and Men)
 
 # Usage
 
