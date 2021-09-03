@@ -6,11 +6,11 @@ The tool uses PyQT5 for the GUI so that the script can be run platform independe
 
 required packages to be able to run the script:
 
--PyQT5 - GUI & slot and signals framework  
--lxml - parsing the answers of the TG device  
--ncclient - building and sending the xml messages to the unit  
--pandas - dataframe framework to manage the information retrived and to write it to excel  
--openpyxl - excel writter  
+* PyQT5 - GUI & slot and signals framework  
+* lxml - parsing the answers of the TG device  
+* ncclient - building and sending the xml messages to the unit  
+* pandas - dataframe framework to manage the information retrived and to write it to excel  
+* openpyxl - excel writter  
 
 Many thanks and credit to the teams behind this python modules (Women and Men)
 
